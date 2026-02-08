@@ -1,0 +1,25 @@
+{
+  "name": "Flutter (eBroker) Codespace",
+
+  // 1. Specifies the base software for your environment.
+  // This image comes pre-installed with the Flutter SDK, Android SDK command-line tools, and Java.
+  "image": "mcr.microsoft.com/devcontainers/flutter:latest",
+
+  "customizations": {
+    "vscode": {
+      // 2. Installs the official Dart and Flutter extensions in Codespaces for you.
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter"
+      ]
+    }
+  },
+
+  // 3. This command runs automatically after the Codespace is created.
+  // It fetches all your project dependencies, just like in your README.
+  "postCreateCommand": "flutter pub get",
+
+
+  // 4. Ensures you don't run into permission issues.
+  "remoteUser": "vscode"
+}

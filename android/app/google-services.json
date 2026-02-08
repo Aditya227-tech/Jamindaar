@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "63168540332",
+    "project_id": "ebroker-wrteam",
+    "storage_bucket": "ebroker-wrteam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63168540332:android:8b13b90751cb235f623909",
+        "android_client_info": {
+          "package_name": "com.ebroker.wrteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63168540332-bf5kqt19bbbq0ub3quibe67tfi7hjc1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebroker.wrteam",
+            "certificate_hash": "82a14f25750d7ec0b7fbff612b63e3283495d4d7"
+          }
+        },
+        {
+          "client_id": "63168540332-o8fou158mh2husbueljbdh9rnkba89ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebroker.wrteam",
+            "certificate_hash": "ec16fb4d43e3c581be5e362601bace617058c75b"
+          }
+        },
+        {
+          "client_id": "63168540332-r2ijbvmfrfo97c04irnck1knsd8tpcoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebroker.wrteam",
+            "certificate_hash": "8cbe6d0a74ce7ac4e43650cd878da373ecf63a1d"
+          }
+        },
+        {
+          "client_id": "63168540332-vb3hhj1llcevhjv4ad3an3to4210acrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebroker.wrteam",
+            "certificate_hash": "d13be407f63cda1da00ca10ae2e0c35b7ddd442d"
+          }
+        },
+        {
+          "client_id": "63168540332-rr7r3nec429iclfv5to5u99m6behta15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "[GCP_API_KEY]"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63168540332-rr7r3nec429iclfv5to5u99m6behta15.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "63168540332-b8snl3ggfeaosrq8acqc11npalhouus5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ebroker.wrteam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

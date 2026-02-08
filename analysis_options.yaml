@@ -1,0 +1,31 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  errors:
+    avoid_annotating_with_dynamic: ignore
+    avoid_dynamic_calls: ignore
+    avoid_equals_and_hash_code_on_mutable_classes: ignore
+    avoid_returning_this: ignore
+    file_names: error
+    lines_longer_than_80_chars: ignore
+    prefer_constructors_over_static_methods: ignore
+
+linter:
+  rules:
+    sort_pub_dependencies: false
+    void_checks: false
+    use_setters_to_change_properties: false
+    avoid_shadowing_type_parameters: false
+    avoid_annotating_with_dynamic: true
+    avoid_dynamic_calls: true
+    use_build_context_synchronously: false
+    public_member_api_docs: false
+
+
+# ! USE THIS RULES
+# linter:
+#   rules:
+#     use_build_context_synchronously: false
+#     public_member_api_docs: false
+#     type_annotate_public_apis: false
+#     lines_longer_than_80_chars: false
